@@ -1,7 +1,7 @@
 var maldives = prompt('Do you love maldives How many photos you want to see ??');
 
 
-document.write('<p>'+"you entered this number: "+maldives+'</p>')
+document.write('<p>'+'you entered this number: '+maldives+'</p>')
 
 images =['<img src="images/Maafushi.jpg"/>','<img src="images/Fihalhohi.jpg"/>','<img src="images/pic.jpg"/>','<img src="images/pic1.jpg"/>','<img src="images/pic2.jpg"/>','<img src="images/pic3.jpg"/>','<img src="images/pic4.jpg"/>','<img src="images/pic5.jpg"/>','<img src="images/pic6.jpg"/>','<img src="images/pic7.jpg"/>','<img src="images/pic8.jpg"/>']
 

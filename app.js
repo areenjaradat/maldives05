@@ -10,7 +10,14 @@ for(var i=0;i<maldives;i++){
 }
 
 var mal = prompt('what do you want to visit in the maldives put on of this choices Maafushi or Biyadhoo or Fihalhohi to have more info about this place ');
+
+
+while(!(mal =='Maafushi' || mal =='Biyadhoo' || mal=='Fihalhohi')){
+    
+    mal = prompt('please enter the correct item,what do you want to visit in the maldives put on of this choices Maafushi or Biyadhoo or Fihalhohi to have more info about this place')
+}
 document.write('<h1>'+mal+'</h1>')
+
 if (mal=='Maafushi'){
 document.write('<h4>'+'<em>'+'Maafushi is one of the biggest and most popular local islands in Maldives. It is located in South Male Atoll just 27 km away from Male. The size is 1270 x 265 m. The island itself has an elongated form. 2700 people live on the island. It’s amazing how so many people can live on such a small piece of land, but as on other islands, you won’t feel that the place is overcrowded.'+'</em>'+'</h4>');
 

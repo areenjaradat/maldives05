@@ -1,3 +1,4 @@
+function imag(){
 var maldives = prompt('Do you love maldives How many photos you want to see ??');
 
 
@@ -8,7 +9,9 @@ images =['<img src="images/Maafushi.jpg"/>','<img src="images/Fihalhohi.jpg"/>',
 for(var i=0;i<maldives;i++){
     document.write(images[i])
 }
+}
 
+function palces(){
 var mal = prompt('what do you want to visit in the maldives put on of this choices Maafushi or Biyadhoo or Fihalhohi to have more info about this place ');
 
 
@@ -32,3 +35,7 @@ document.write('<img src="images/Maafushi.jpg"/>')
     else{
         alert('wrong insert')
     }
+}
+
+imag();
+palces();
